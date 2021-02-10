@@ -3,11 +3,11 @@
     box-sizing: border-box;
 }
 
-/* .nav-toggle */
+/* basic design */
 /* ========================================== */
 
-/* 基本デザイン */
-/* ------------------------------------------ */
+/* .nav-toggle */
+
 .nav-toggle {
     margin: 20px;
 }
@@ -22,12 +22,8 @@
     content: "\f00d"
 }
 
-
 /* .nav-list */
-/* ========================================== */
 
-/* 基本デザイン */
-/* ------------------------------------------ */
 .nav-list {
     position: absolute;
     top: 0;
@@ -41,7 +37,6 @@
     background:  rgba(125, 125, 125, 0.95);
     text-align: center;
 }
-
 .nav-list > li a {
     display: block;
     padding: 10px 1em;
@@ -49,18 +44,19 @@
     color: white;
 }
 
-/* アニメーション */
-/* ------------------------------------------ */
+/* animation */
+/* ========================================== */
+
 .nav-list {
     transition: opacity 1s, visibility 0s ease 1s;
-      
+
     opacity: 0;
     visibility: hidden;
 }
-  
+
 .nav-list.menu-on {
     transition-delay: 0s;
-    
+
     opacity: 1;
     visibility: visible;
 }
