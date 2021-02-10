@@ -2,6 +2,9 @@
 * {
     box-sizing: border-box;
 }
+*:focus {
+    outline: auto rgb(0, 0, 255);
+}
 
 /* basic design */
 /* ========================================== */
