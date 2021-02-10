@@ -48,3 +48,19 @@
     /* text-decoration: none; */
     color: white;
 }
+
+/* アニメーション */
+/* ------------------------------------------ */
+.nav-list {
+    transition: opacity 1s, visibility 0s ease 1s;
+      
+    opacity: 0;
+    visibility: hidden;
+}
+  
+.nav-list.menu-on {
+    transition-delay: 0s;
+    
+    opacity: 1;
+    visibility: visible;
+}
