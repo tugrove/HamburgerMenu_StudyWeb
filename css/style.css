@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
 }
-*:focus {
+*:focus-visible {
     outline: auto rgb(0, 0, 255);
 }
 
